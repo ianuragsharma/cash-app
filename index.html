@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cash App</h1>
+      <p>
+        Enter the bill amount and cash given by the customer to know minimum
+        number of notes to return.
+      </p>
+      <br />
+      <h3>Bill Amount:</h3>
+      <input type="number" id="bill-amount" />
+      <button id="next">Next</button>
+      <div class="error-msg">The amount should be greater then 0</div>
+
+      <div id="cash">
+        <h3>Cash Given:</h3>
+        <input type="number" id="cash-given" />
+        <button id="check">Check</button>
+      </div>
+      <div class="error-msg2">
+        Cash given should be greater than or equal to bill amount
+      </div>
+
+      <div id="no-return">No amount should be returned</div>
+      <div id="table">
+        <h3>Return Change:</h3>
+        <div id="result">
+          <table>
+            <tbody>
+              <tr>
+                <th style="word-break: break-all">No. of notes</th>
+                <td id="2000"></td>
+                <td id="500"></td>
+                <td id="100"></td>
+                <td id="20"></td>
+                <td id="10"></td>
+                <td id="5"></td>
+                <td id="1"></td>
+              </tr>
+              <tr>
+                <th>Note</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+:root {
+  --primaryColor: #6ee7b7;
+  --secondaryColor: #ddd6fe;
+}
+body {
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  border-radius: 40px;
+  height: 95vh;
+  text-align: center;
+  margin: auto;
+  background-color: var(--primaryColor);
+  padding: 1rem;
+  max-width: 500px;
+}
+.error-msg {
+  margin: 10px;
+}
+h1 {
+  font-size: 3.5rem;
+}
+p {
+  font-size: 1.2rem;
+}
+button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--secondaryColor);
+  font-weight: bold;
+  width: 4rem;
+  border: 1px solid;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  margin: 0.1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.error-msg {
+  margin: 1rem;
+}
+.error-msg2 {
+  margin: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+#cash {
+  display: none;
+}
+
+#table {
+  text-align: center;
+  display: none;
+  margin-bottom: 2rem;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+th,
+td {
+  background-color: var(--secondaryColor);
+  padding: 0.5rem;
+}
+
+#no-return {
+  display: none;
+  padding-top: 1rem;
+  font-weight: bold;
+}
