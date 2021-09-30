@@ -24,6 +24,8 @@ nextBtn.addEventListener("click", function () {
     errorMsgAmountNegative.style.display = "block";
     table.style.display = "none";
     amountReturned.style.display = "none";
+    noReturn.style.display = "none";
+
     document.getElementById("cash").style.display = "none";
   } else {
     errorMsgAmountNegative.style.display = "none";
@@ -41,6 +43,7 @@ checkBtn.addEventListener("click", function () {
     errorMsgLessCash.style.display = "block";
     table.style.display = "none";
     amountReturned.style.display = "none";
+    noReturn.style.display = "none";
   } else if (cashGiven === billAmount) {
     errorMsgLessCash.style.display = "none";
     noReturn.style.display = "block";
