@@ -70,6 +70,9 @@ li {
   display: none;
   margin-bottom: 2rem;
 }
+#amount-returned {
+  margin: 1rem;
+}
 
 table {
   width: 100%;
